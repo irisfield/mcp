@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.16.0](https://github.com/supabase/mcp/compare/mcp-server-supabase-v0.15.0...mcp-server-supabase-v0.16.0) (2026-11-04)
+
+
+### Features
+
+* **notebooks:** add delete_notebook tool with elicitation confirmation ([#510](https://github.com/supabase/mcp/issues/510)) ([f36f74a](https://github.com/supabase/mcp/commit/f36f74a034ac8507558f14c1b51b4dbfa59354cb))
+* **notebooks:** enable create_notebook and run_notebook tools ([#509](https://github.com/supabase/mcp/issues/509)) ([addc4e5](https://github.com/supabase/mcp/commit/addc4e562c70ba21c4c1a33d2668724ca22f911c))
+
+
+### Bug Fixes
+
+* **notebooks:** return caller errors for client-caused notebook refusals ([#512](https://github.com/supabase/mcp/issues/512)) ([5f0d393](https://github.com/supabase/mcp/commit/5f0d393073cbbefbc4ea7122cd1fd058aeb60e5c))
+* **pg-meta:** report partition FKs once and add partition_of to list_tables ([#508](https://github.com/supabase/mcp/issues/508)) ([2c7fa82](https://github.com/supabase/mcp/commit/2c7fa824fc1164dae8dd6c9c2c59828cd8b1cbcd))
+* tolerate non-URL edge function paths in api platform ([#438](https://github.com/supabase/mcp/issues/438)) ([00d07a4](https://github.com/supabase/mcp/commit/00d07a4e4a4b1a431f424b7be8459972f5802186))
+
 ## [0.15.0](https://github.com/supabase/mcp/compare/mcp-server-supabase-v0.14.0...mcp-server-supabase-v0.15.0) (2026-10-29)
 
 
